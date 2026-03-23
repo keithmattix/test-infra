@@ -153,6 +153,8 @@ branch-protection:
       required_status_checks:
         contexts:
         - EasyCLA
+      exclude:
+        "copilot/" # Exclude copilot created branches from branch protection
       # By default, required 1 approval from a CODEOWNER
       required_pull_request_reviews:
         required_approving_review_count: 1

@@ -308,7 +308,7 @@ branch-protection:
               protect: true
               restrictions:
                 users:
-                
+
         operator:
           branches: *blocked_branches
         istio.io:
@@ -320,7 +320,7 @@ branch-protection:
         pkg:
           branches: *blocked_branches
         get-istioctl:
-          branches: *blocked_branchescopilot
+          branches: *blocked_branches
         cri:
           branches: *blocked_branches
         client-go:
